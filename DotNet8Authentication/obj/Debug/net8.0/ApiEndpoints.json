@@ -300,5 +300,43 @@
         "StatusCode": 400
       }
     ]
+  },
+  {
+    "ContainingType": "DotNet8Authentication.Routes.UserRoutes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUserRoutes\u003Eb__0_0",
+    "RelativePath": "user/information",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "User"
+    ]
+  },
+  {
+    "ContainingType": "DotNet8Authentication.Routes.UserRoutes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUserRoutes\u003Eb__0_1",
+    "RelativePath": "user/total",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "User"
+    ]
   }
 ]
